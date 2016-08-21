@@ -4,7 +4,7 @@ from twitter_helper import Twitter_helper
 from csv_helper import Csv_helper
 import re
 
-tweets = Twitter_helper.search_tweets("#BOE",10000)
+tweets = Twitter_helper.search_tweets("#Hello",10000)
 for tweet in tweets:
     tweet.text = re.sub("(@[A-Za-z0-9]+)|([^0-9A-Za-z \t])|(\w+:\/\/\S+)","",tweet.text).replace("RT","")
     sentiment = TextBlob(tweet.text).sentiment
