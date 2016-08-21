@@ -1,0 +1,17 @@
+cloudpickle==0.2.1
+cymem==1.31.2
+murmurhash==0.26.4
+nltk==3.2.1
+numpy==1.11.1
+oauthlib==1.1.2
+plac==0.9.6
+preshed==0.46.4
+requests==2.10.0
+requests-oauthlib==0.6.2
+semver==2.6.0
+six==1.10.0
+spacy==0.101.0
+sputnik==0.9.3
+textblob==0.11.1
+thinc==5.0.8
+tweepy==3.5.0
