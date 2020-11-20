@@ -15,7 +15,7 @@ Csv_helper.write_to_file(tweets,"tweets")
 
 '''
 nlp = English()
-
+nlp english
 doc = nlp("Make no mistake our current economic troubles are the direct result of this Tory gov't cynical political manoeuvrings")
 print(doc)
 
