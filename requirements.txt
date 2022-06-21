@@ -2,7 +2,7 @@ cloudpickle==0.2.1
 cymem==1.31.2
 murmurhash==0.26.4
 nltk==3.4.5
-numpy==1.11.1
+numpy==1.22.0
 oauthlib==1.1.2
 plac==0.9.6
 preshed==0.46.4
